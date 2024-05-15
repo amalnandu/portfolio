@@ -30,7 +30,7 @@ const projectsData = [
     title: "Budget",
     description: "Budget tracking app made with flutter and firebase",
     imageUrl: "/images/project2.jpg",
-    link:"https://www.google.com"
+    link:""
   },
   // Add more projects as needed
 ];
