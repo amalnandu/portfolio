@@ -1,0 +1,26 @@
+.oscillating-container {
+  /* background-color: yellow; */
+    position: relative;
+    width: 20em; /* Set the width of the container */
+    height: 4em; /* Set the height of the container */
+    overflow: hidden; /* Ensure the image stays within the container */
+     /* Optional: Add a border for better visibility */
+    margin: 0 auto; /* Center the container horizontally */
+  }
+  
+  .oscillating-image {
+    position: absolute;
+    /* Adjust the size of the image */
+    height: auto;
+    animation: oscillate 6s ease-in-out infinite;
+  }
+  
+  @keyframes oscillate {
+    0%, 100% {
+      left: 0;
+    }
+    50% {
+      left: calc(100% - 100px); /* Move to the right edge of the container minus the image width */
+    }
+  }
+  
