@@ -1,19 +1,30 @@
-.contact{
-
-}
-
-
-#business{
-    font-size: 2em;
-    padding-top: 1.3em;
-padding-left: 1.6em;
-}
-
-.tagline{
- font-size: 18px;
- color: rgb(212, 202, 202);
- opacity: 0.8;
-
- padding-left: 3em;
- padding-top: 1em;
-}
+#contact {
+    background-color: #081b29;
+    padding: 2em 0;
+    text-align: center;
+  }
+  
+  .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .contact-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .contact-links a {
+    margin: 0 10px;
+  }
+  
+  .contact-links img {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .contact-links img:hover {
+    opacity: 0.8;
+  }
+  
