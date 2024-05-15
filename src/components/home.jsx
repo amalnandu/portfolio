@@ -1,10 +1,10 @@
 import React from "react";
 import "../styles/home.css";
-import flutter from "./flutter.png";
+
 import amal from '../amal.jpeg'
-import OscillatingImage from "../components/img";
+
 import { Typewriter } from "react-simple-typewriter";
-import Particles from 'react-tsparticles';
+
 
 function Home() {
   return (

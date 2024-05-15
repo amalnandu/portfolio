@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/about.css";
 import Timeline from "../components/timeline";
-import ParticlesBackground from '../components/particle'
+
 
 const educationItems = [
   {
