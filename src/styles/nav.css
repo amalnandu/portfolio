@@ -45,3 +45,31 @@ font-weight: 700;
     color: #007fbf;
   }
   
+
+  /* Responsive adjustments */
+@media (max-width: 600px) {
+  .navbar {
+    position: sticky;
+    flex-direction: column; /* Revert to row layout on larger screens */
+    justify-content: space-between; /* Align items to the sides */
+    align-items: center; /* Center align items vertically */
+  }
+
+  .nav-left {
+    margin-bottom: 0; /* Remove margin between nav-left and nav-right on larger screens */
+  }
+
+  .nav-right {
+    margin-top: 0; /* Remove margin between nav-left and nav-right on larger screens */
+  }
+
+  .nav-right nav ul {
+    flex-direction: row; /* Revert to row layout on larger screens */
+    align-items: center; /* Center align items vertically */
+  }
+
+  .nav-right nav ul li {
+    margin: 0; /* Reset margin for list items */
+    margin-left: 1.1em; /* Add margin only on the left */
+  }
+}
